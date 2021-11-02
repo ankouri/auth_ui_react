@@ -1,12 +1,14 @@
 import React from "react";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
-import './app.css';
 import ForgotPassword from './pages/ForgetPassword';
 import Register from './pages/Register';
 import ResetForm from './pages/ResetForm';
 import NotFound from './pages/NotFound';
+
+
 function App() {
   return (
     <>
