@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"https://nodeauth-app.herokuapp.com"
+  "proxy":"https://nodeauth-app.herokuapp.com/"
 }

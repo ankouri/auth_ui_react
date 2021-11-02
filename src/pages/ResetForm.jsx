@@ -61,7 +61,7 @@ export default function ResetForm() {
     console.log(``);
     try {
       const result = await axios.get(
-        `https://nodeauth-app.herokuapp.com/api/auth/reset/${resetId}`,
+        `/api/auth/reset/${resetId}`,
         { params: {password:passwordRef.current.value}}
         
       );
