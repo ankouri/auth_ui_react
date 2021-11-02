@@ -70,7 +70,7 @@ export default function Login() {
       setStatus({ type: "success", msg: `${username} : Your Account Activated successfully` });
       setOpen(true);
     }
-  },[])
+  },[username, ac_status]);
   return (
     <ContainerLogin>
     
