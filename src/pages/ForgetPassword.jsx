@@ -33,7 +33,7 @@ export default function ForgetPassword() {
       try {
 
         const result = await axios.post(
-          "https://nodeauth-app.herokuapp.com/api/auth/forgot",
+          "/api/auth/forgot",
           request
         );
         console.log(result.data);
