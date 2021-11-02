@@ -53,7 +53,7 @@ export default function Register() {
     try {
 
       const result = await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://nodeauth-app.herokuapp.com/api/auth/register",
         request
       );
       console.log(result.data);

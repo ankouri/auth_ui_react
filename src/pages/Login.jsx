@@ -47,7 +47,7 @@ export default function Login() {
       try {
 
         const result = await axios.post(
-          "http://localhost:5000/api/auth/login",
+          "https://nodeauth-app.herokuapp.com/api/auth/login",
           request
         );
         console.log(result.data);
