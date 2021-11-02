@@ -1,16 +1,9 @@
-import React from 'react'
+import React from 'react';
 import {
-    TextField,
-    InputAdornment,
-    IconButton,
-    Button,
-    Box,
-    Divider,
-    Snackbar,
-    Alert
+    Box
   } from "@mui/material";
   import styled from "styled-components";
-  import { useHistory, Link } from "react-router-dom";
+  import { Link } from "react-router-dom";
 
 export default function NotFound() {
     return (

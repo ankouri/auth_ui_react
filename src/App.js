@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
 import ForgotPassword from './pages/ForgetPassword';
 import Register from './pages/Register';
 import ResetForm from './pages/ResetForm';
@@ -19,9 +18,6 @@ function App() {
           </Route>
           <Route path="/forgot" exact>
             <ForgotPassword />
-          </Route>
-          <Route path="/dashboard" exact>
-            <Dashboard />
           </Route>
           <Route path="/register" exact>
             <Register />

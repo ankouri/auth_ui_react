@@ -16,7 +16,6 @@ import {
   Lock,
   Person,
   VisibilityOff,
-  Close,
 } from "@mui/icons-material";
 import { useHistory } from "react-router-dom";
 import axios from "axios";

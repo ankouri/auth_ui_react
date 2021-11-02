@@ -11,10 +11,9 @@ import {
 } from "@mui/material";
 import styled from "styled-components";
 import {
-  ChevronLeft,
   Visibility,
   Lock,
-  VisibilityOff,
+  VisibilityOff
 } from "@mui/icons-material";
 import { useHistory, useParams } from "react-router-dom";
 import axios from "axios";
