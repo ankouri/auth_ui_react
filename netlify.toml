@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/api/*"
-  to = "https://nodeauth-app.herokuapp.com/api/:splat"
+  to = "https://nodeauth-app.herokuapp.com/:splat"
   status = 200
   force = true
   
