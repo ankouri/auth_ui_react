@@ -5,7 +5,7 @@
 ## Technologies Used
 1.  Reactjs
 2.  Material ui
-4.  styled components
+3.  styled components
 
 ## Installation
 
